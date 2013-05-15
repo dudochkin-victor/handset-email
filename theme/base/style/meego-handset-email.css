@@ -1,0 +1,274 @@
+/* Base styles */
+MWidgetStyle {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-boxed-percent: 0;
+    background-image: ;
+}
+
+MAbstractLayoutPolicyStyle {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-spacing: 0;
+    horizontal-spacing: 0;
+}
+
+#EMailFolderItemRow {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 1;
+    margin-right: 0;
+}
+
+#EMailFolderAccountItem {
+    margin-top: 1;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0.5mm;
+    padding-right: 0;
+    padding-bottom: 0.5mm;
+    padding-left: 0.5mm;
+
+    font: "Droid Sans" bold 24;
+    text-align: "left";
+    vertical-align: "center";
+    color: #7e7e7e;
+}
+
+#EmailFolderItem {
+    margin-top: 1;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0.5mm;
+    padding-right: 0;
+    padding-bottom: 0.5mm;
+    padding-left: 3.0mm;
+
+    font: "Droid Sans" 24;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+#EmailFolderMessageCount{
+    margin-top: 1;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0.5mm;
+    padding-right: 0.5mm;
+    padding-bottom: 0.5mm;
+    padding-left: 0;
+    perferred-size: -1 -1;
+    minimum-size: -1 -1;
+    maximum-size: -1 -1;
+
+    font: "Droid Sans" 24;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+#AccountSetupPageLabel {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 1;
+    padding-left: 1;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+/* List view Page styles */
+#MessageSubject {
+    margin-top: 1;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0.5mm;
+
+    font: "Droid Sans" bold 18;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+#MessageSubjectRead {
+    margin-top: 1;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0.5mm;
+
+    font: "Droid Sans" 18;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+#MessageSender {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0.5mm;
+
+    font: "Droid Sans" bold 18;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+#MessageSenderRead {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0.5mm;
+
+    font: "Droid Sans" 18;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+#MessageTimeStamp {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0;
+    padding-right: 0.5mm;
+    padding-bottom: 0;
+    padding-left: 0;
+    perferred-size: -1 -1;
+    minimum-size: -1 -1;
+    maximum-size: -1 -1;
+
+    font: "Droid Sans" bold 18;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+#MessageTimeStampRead {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    padding-top: 0;
+    padding-right: 0.5mm;
+    padding-bottom: 0;
+    padding-left: 0;
+    perferred-size: -1 -1;
+    minimum-size: -1 -1;
+    maximum-size: -1 -1;
+
+    font: "Droid Sans" 18;
+    color: #7e7e7e;
+    background-color: white;
+}
+
+// conversation page
+#Separator {
+    margin-right: 0.7mm;
+}
+
+#BodyText {
+    font: "Droid Sans" 18;
+}
+
+#AttachmentText {
+    font: "Droid Sans" bold 18;
+}
+
+#AttachmentButton {
+    font: "Droid Sans" 16;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    preferred-size: -1 -1;
+    maximum-size: -1 32px;
+}
+
+// compose page
+#entryBox {
+    background-image: meegotouch-container-content-background 10 10 10 10;
+}
+
+
+// contact page
+MWidgetStyle {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+MAbstractLayoutPolicyStyle {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+#SeasideList {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+#SeasideListItem {
+    background-color: white;
+    minimum-size: 100% -1;
+}
+
+#SeasideListItemThumbnail {
+    margin-top: 8;
+    margin-right: 8;
+    margin-bottom: 8;
+    margin-left: 8;
+    border-color: gray;
+    border-top: 2;
+    border-right: 2;
+    border-bottom: 2;
+    border-left: 2;
+}

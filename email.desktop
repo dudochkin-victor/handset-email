@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Email
+Comment=MeeGo handset email client
+Type=Application
+Icon=icons-Applications-email
+Exec=meego-handset-email
+StartupNotify=true
+Terminal=false
+Categories=Network;Email;
